@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Generos from './components/pages/Generos';
 import Platform from './components/pages/Platform';
@@ -25,10 +25,10 @@ function App() {
     }, [])
   
   return (
-    <BrowserRouter>
+    <>
       <ScrollToTop/>
       <Routes>
-        <Route path='https://augustoms02.github.io/game-store/' element={<Home data={data}/>}/>
+        <Route path='/' element={<Home data={data}/>}/>
         <Route path='MMORPG' element={<Generos data={data} genre='MMORPG'/>}/>
         <Route path='Shooter' element={<Generos data={data} genre='Shooter'/>}/>
         <Route path='Strategy' element={<Generos data={data} genre='Strategy'/>}/>
@@ -41,7 +41,7 @@ function App() {
         <Route path='All' element={<Platform data={data} platform='All'/>}/>
         <Route path='*'/>
       </Routes>
-    </BrowserRouter>
+    </>
   );
 }
 
