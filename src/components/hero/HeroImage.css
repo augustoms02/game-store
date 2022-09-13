@@ -1,0 +1,16 @@
+.hero_img {
+    width: 78%;
+    height: 520px;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.hero_img:hover {
+    transform: scale(1.03);
+}
+
+@media screen and (min-width:1900px) { 
+    .hero_img {
+        height: 700px;
+    }
+}

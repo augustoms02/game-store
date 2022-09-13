@@ -1,0 +1,9 @@
+main {
+    max-width: 79%;
+    margin: 0 auto;
+}
+.vertical_games {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+}

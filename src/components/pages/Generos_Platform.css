@@ -1,0 +1,21 @@
+.webpage {
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 79%;
+}
+.games_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.games_list li {
+    margin-right: 22px;
+}
+.title {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    text-transform: uppercase;
+}

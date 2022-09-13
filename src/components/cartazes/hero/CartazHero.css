@@ -1,0 +1,33 @@
+.cartaz_hero {
+    display: flex;
+    align-items: center; 
+    color: white;
+    padding: 13px 16px;
+    cursor: pointer;
+}
+.cartaz_hero:hover {
+    background-color: rgba(37, 37, 37, 1);
+    border-radius: 16px;
+}
+.cartaz_hero img {
+    max-width: 25%;
+    height: 80px;
+    margin-right: 16px;
+}
+.cartaz_hero p {
+    text-transform: capitalize;
+    max-width: 148px;
+}
+
+@media screen and (min-width:1900px) {
+    .cartaz_hero {
+        margin: 25px 0;
+    }
+    .cartaz_hero img {
+        max-width: 50%;
+        height: 95px;
+    }
+    .cartaz_hero p {
+        font-size: 1.5rem;
+    }
+}

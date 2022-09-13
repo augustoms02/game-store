@@ -1,0 +1,22 @@
+.container_aleatorio {
+    width: 47%;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.container_aleatorio img {
+   width: 100%;
+   height: 100%;
+}
+.container_aleatorio:hover {
+    transform: scale(1.05);
+}
+.container_aleatorio h3 {
+    margin-top: -05px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 05px 10px;
+    background-color: rgba(0, 116, 228, 1);
+}
+
+

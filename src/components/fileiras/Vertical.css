@@ -1,0 +1,17 @@
+.vertical_container {
+    padding-right: 50px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+.vertical_container h3 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+.vertical_container ul {
+    list-style: none;
+}
+@media screen and (max-width: 1300px) {
+    .vertical_container {
+        display: none;
+    }
+}

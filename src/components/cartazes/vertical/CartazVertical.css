@@ -1,0 +1,35 @@
+.cartaz_vertical {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    
+    cursor: pointer;
+}
+.cartaz_vertical:hover {
+    background-color: rgba(37, 37, 37, 1);
+    border-radius: 10px;
+}
+.cartaz_vertical img {
+    max-width: 96px;
+    height: 128px;
+    margin-right: 20px;
+}
+.cartaz_texto {
+    color: white;
+    max-width: 300px;
+}
+.cartaz_texto h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.cartaz_texto p {
+    color: lightgrey;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.cartaz_texto h5 {
+    display: inline-block;
+    padding: 3px;
+    border-radius: 4px;
+    background-color: rgba(0, 116, 228, 1);
+}

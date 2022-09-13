@@ -1,0 +1,13 @@
+footer {
+    text-align: center;
+    padding: 30px 60px;
+    background-color: rgba(32, 32, 32, 1);
+}
+footer a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    border-bottom: 2px solid white;
+}

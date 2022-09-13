@@ -1,0 +1,14 @@
+.hero {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+.hero_games {
+    margin-left: 01%;
+}
+
+@media screen and (max-width: 1000px) {
+    .hero {
+        display: none;
+    }
+}
