@@ -28,7 +28,7 @@ function App() {
     <>
       <ScrollToTop/>
       <Routes>
-        <Route path='/' element={<Home data={data}/>}/>
+        <Route path='/game-store' element={<Home data={data}/>}/>
         <Route path='MMORPG' element={<Generos data={data} genre='MMORPG'/>}/>
         <Route path='Shooter' element={<Generos data={data} genre='Shooter'/>}/>
         <Route path='Strategy' element={<Generos data={data} genre='Strategy'/>}/>
